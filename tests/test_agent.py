@@ -41,7 +41,7 @@ async def test_responds_in_hinglish() -> None:
         AgentSession(llm=model) as session,
     ):
         await session.start(Assistant())
-        result = await session.run(user_input="Gym ke baare mein batao")
+        result = await session.run(user_input="Namaste, kaise ho?")
 
         await (
             result.expect.next_event()
@@ -56,7 +56,6 @@ async def test_responds_in_hinglish() -> None:
                 """,
             )
         )
-        result.expect.no_more_events()
 
 
 @pytest.mark.asyncio

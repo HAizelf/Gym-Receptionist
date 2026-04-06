@@ -15,46 +15,40 @@ MEMBERSHIP_PLANS = [
         "name": "Monthly",
         "duration": "1 month",
         "price": "2,500 rupees",
-        "includes": "Full gym access, locker room",
+        "includes": "Full gym access",
     },
     {
         "name": "Quarterly",
         "duration": "3 months",
         "price": "6,000 rupees",
-        "includes": "Full gym access, locker room, one free personal training session",
+        "includes": "Full gym access",
     },
     {
         "name": "Half-Yearly",
         "duration": "6 months",
-        "price": "10,000 rupees",
-        "includes": "Full gym access, locker room, three free personal training sessions",
+        "price": "12,000 rupees",
+        "includes": "Full gym access",
     },
     {
         "name": "Annual",
         "duration": "12 months",
-        "price": "18,000 rupees",
-        "includes": "Full gym access, locker room, six free personal training sessions, diet consultation",
+        "price": "20,000 rupees",
+        "includes": "Full gym access",
     },
 ]
 
 TRAINERS = [
     {
-        "name": "Rahul Sharma",
-        "specialty": "Strength and conditioning",
-        "experience": "8 years",
-        "availability": "Monday to Saturday, 7 AM to 3 PM",
+        "name": "Chandan",
+        "specialty": "Bodybuilding",
     },
     {
-        "name": "Priya Verma",
-        "specialty": "Weight loss and functional training",
-        "experience": "5 years",
-        "availability": "Monday to Friday, 4 PM to 9 PM",
+        "name": "Nitesh",
+        "specialty": "Calisthenics and bodybuilding",
     },
     {
-        "name": "Amit Chauhan",
-        "specialty": "Bodybuilding and powerlifting",
-        "experience": "10 years",
-        "availability": "Monday to Saturday, 6 AM to 12 PM",
+        "name": "Anushka",
+        "specialty": "Getting lean, calisthenics, and female-specific bodybuilding",
     },
 ]
 
